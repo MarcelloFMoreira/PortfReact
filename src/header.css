@@ -1,0 +1,63 @@
+.logo{
+width: 26.12rem;
+}
+
+.container_logo_navbar{
+        display: flex;
+        align-items: center;
+
+}
+
+.container_total{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.container_icons{
+    display: flex;
+    gap: 2.3rem;
+    margin-right: 4rem ;
+}
+
+
+.container_icons img{
+    width: 1.563rem;
+    height: 1.563rem;
+}
+
+ul {
+    display: flex;
+    gap: 7rem;
+    list-style-type: none;
+    margin-left: 10rem;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: color 0.5s ease; 
+    position: relative; 
+}
+
+ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ED145B;
+    transition: width 0.5s ease; /* Transição para a largura da linha */
+}
+
+ul li a:hover {
+    color: #ED145B; /* Cor do texto no hover */
+}
+
+ul li a:hover::after {
+    width: 100%; /* A linha aparece no hover */
+}
