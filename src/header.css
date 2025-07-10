@@ -12,6 +12,7 @@ width: 26.12rem;
     justify-content: space-between;
     display: flex;
     align-items: center;
+    width: 100%;
 
 }
 
@@ -38,7 +39,7 @@ ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 400;
     transition: color 0.5s ease; 
     position: relative; 
 }
