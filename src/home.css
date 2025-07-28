@@ -1,0 +1,45 @@
+.ContainerEsquerda h1{
+color: white;
+font-size: 65px;
+margin-top: 0;
+margin-bottom: 20px;
+font-weight: 600;
+}
+
+.ContainerEsquerda h2{
+color: #ED145B;
+font-size: 45px;
+margin-top: 0px;
+margin-bottom: 100px;
+font-weight: 500;
+}
+
+button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 15px 20px;
+    transition: background-color 1s ease-in-out, border 0.3s ease-in-out;
+}
+
+#bt1 {
+    margin-right: 30px;
+}
+
+#bt2 img{ 
+    padding-right: 9px;
+}
+
+.ContainerTotal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+button:hover {
+background-color: #ED145B;
+border: #ED145B 1px solid;
+}
