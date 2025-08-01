@@ -1,0 +1,77 @@
+.logo {
+    width: 22rem;
+    margin: 20px 0px 0px 90px;
+}
+
+.container_logo_navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+.container_total {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.container_icons {
+    display: flex;
+    gap: 2.3rem;
+    margin-right: 4rem;
+}
+
+
+.container_icons img {
+    width: 1.563rem;
+    height: 1.563rem;
+    transition: 0.5s;
+}
+
+.container_icons img:hover {
+    transform: scale(1.07);
+    box-shadow: inset 0 0 0 0px white,
+        0.3em 0.3em 1.4em #ED145B;
+    border-radius: 11px
+}
+
+#lkd:hover {
+    border-radius: 0px
+}
+
+ul {
+    display: flex;
+    gap: 7rem;
+    list-style-type: none;
+    margin-left: 10rem;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ED145B;
+    transition: width 0.5s ease;
+}
+
+ul li a:hover {
+    color: #ED145B;
+}
+
+ul li a:hover::after {
+    width: 100%;
+}

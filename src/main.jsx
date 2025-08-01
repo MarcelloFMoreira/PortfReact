@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Header from './Header.jsx'
-import Home from './Home.jsx'
+import Header from './Components/Header/Header.jsx'
+import Home from './Components/Home/Home.jsx'
 import './main.css'
 
 createRoot(document.getElementById('root')).render(

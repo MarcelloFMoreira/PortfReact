@@ -1,5 +1,5 @@
-import Perfil from "./assets/FotoPerfil.png"
-import iconDownload from "./assets/iconDownload.png"
+import Perfil from "../../assets/FotoPerfil.png"
+import iconDownload from "../../assets/iconDownload.png"
 import "./home.css"
 
 
